@@ -1,0 +1,161 @@
+body{
+  background-color: lightgray!important;
+  padding-top: 50px;
+}
+
+.navbar
+{background: #76E2F4!important;
+}
+
+.dropdown-item:hover{
+  background-color:#76E2F4!important
+
+}
+/* headwrapper style */
+#headwrapper{
+  position: relative;
+  padding: 0;
+margin: 0;
+overflow: hidden;
+height: 600px;
+background-image: url(../images/headerlogo/background.png);
+background-repeat: no-repeat;
+background-size: 100% 700px;
+background-attachment: fixed;
+background-position: center;
+}
+
+/* wrapper child style */
+  /* logotext */
+#logotext{
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  background-image: url(../images/headerlogo/text.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:70% 180px;
+  top: 50%;
+  margin-top: -90px;
+}
+/*  back-flower */
+#back-flower{
+  position: absolute;
+  width: 100%;
+  height:350Px;
+  background-image: url(../images/headerlogo/back-flower.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top:400px;
+  left:25px;
+}
+/* fore-flower */
+#fore-flower{
+  position: absolute;
+  width: 100%;
+  height:400Px;
+  background-image: url(../images/headerlogo/fore-flower.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top:425px;
+  left:25px;
+}
+
+#partial-headwrapper{
+  position: relative;
+  padding: 0;
+margin: 0;
+overflow: hidden;
+height: 250px;
+background-image: url(../images/headerlogo/background.png);
+background-repeat: no-repeat;
+background-size: 100% 700px;
+background-attachment: fixed;
+background-position: center;
+}
+
+/* wrapper child style */
+  /* logotext */
+#partial-logotext{
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  background-image: url(../images/headerlogo/text.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:70% 180px;
+  top: 50%;
+  margin-top: -90px;
+}
+/*  back-flower */
+#partial-back-flower{
+  position: absolute;
+  width: 100%;
+  height:340Px;
+  background-image: url(../images/headerlogo/back-flower.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top:80px;
+  left:25px;
+}
+/* fore-flower */
+#partial-fore-flower{
+  position: absolute;
+  width: 100%;
+  height:400Px;
+  background-image: url(../images/headerlogo/fore-flower.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top:60px;
+  left:25px;
+}
+/* feature product container */
+
+.container-fluid.products{
+  background-color:#fff;
+  text-align: center;
+}
+
+.img-thumb{
+  width: auto;
+  height:200px;
+}
+/*styling footer  */
+#footer{
+  margin-top: 50px;
+}
+
+
+/*make the image to be center  */
+.details{
+width: 90%;
+ margin: 15px auto!important;
+}
+.footer{
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+  margin-top: 30px!important;
+}
+.brand-center{
+  text-align: center;
+}
+/* for display edit product page */
+.saved-image img{
+  width: 200px;
+  height:auto;
+}
+
+#login-form{
+  width: 50%;
+  height: 60%;
+  border:2px solid #000;
+  border-radius: 4px 4px 10px rgba(0.0.0.0.6);
+}
+#cart_widjet td{
+  font-size: 12px
+}
